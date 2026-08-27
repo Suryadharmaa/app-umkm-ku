@@ -1,0 +1,206 @@
+# Project TODO
+
+- [x] Ekstrak dan analisis objective, metode, temuan, serta batasan dari makalah.
+- [x] Tulis rancangan UI/UX mobile berorientasi portrait berdasarkan kebutuhan makalah.
+- [x] Definisikan model data lokal dan alur pengguna inti.
+- [x] Implementasikan navigasi dan seluruh layar inti aplikasi.
+- [x] Implementasikan interaksi utama dan persistensi lokal bila relevan.
+- [x] Terapkan tema visual, aksesibilitas, dan umpan balik interaksi sesuai HIG iOS.
+- [x] Buat serta pasang identitas visual aplikasi pada konfigurasi dan aset launcher.
+- [x] Tambahkan pengujian unit pada logika inti dan validasi typecheck/lint.
+- [ ] Simpan checkpoint dan serahkan versi aplikasi yang siap ditinjau.
+- [x] Implementasikan cek kesiapan usaha lima langkah dan rekomendasi prioritas.
+- [x] Implementasikan panduan usaha serta checklist legalitas yang dapat ditandai.
+- [x] Implementasikan pembukuan uang masuk/keluar dan ringkasan laba sederhana.
+- [x] Implementasikan pusat pembelajaran, layanan UMKM, dan bantuan istilah.
+- [x] Audit pola navigasi, hierarki visual, dan fitur dari referensi SAPA UMKM serta UMKM-KU.
+- [x] Rombak beranda menjadi dashboard layanan yang lebih terstruktur dan tidak generik.
+- [x] Tambahkan fitur layanan relevan dari UMKM-KU yang cocok untuk aplikasi mobile pemula.
+- [x] Perbaiki kontras teks, tombol, status, dan komponen interaktif agar semua konten terbaca jelas.
+- [x] Terapkan sistem desain baru dengan hierarki, spacing, kartu, dan state interaksi yang konsisten.
+- [x] Validasi ulang seluruh alur, lint, typecheck, dan pengujian unit setelah redesign.
+- [x] Simpan checkpoint revisi desain BantuUsaha.
+- [x] Turunkan referensi visual menjadi spesifikasi tata letak, ritme spacing, warna, tipografi, dan komponen BantuUsaha.
+- [x] Bangun ulang dashboard dengan kartu saldo/kemajuan bergradasi, ringkasan cepat, grafik kontekstual, dan aktivitas terbaru.
+- [x] Buat aset ikon SVG khusus serta sistem ikon berbentuk medali yang tidak tampak seperti aset AI generik.
+- [x] Rancang ulang navigasi bawah, aksi utama, dan header agar terasa seperti aplikasi mobile finansial yang matang.
+- [x] Selaraskan layar panduan, layanan, pembukuan, dan pembelajaran dengan sistem visual baru.
+- [x] Validasi ulang typecheck, lint, test, dan konsistensi kontras setelah desain ulang visual.
+- [ ] Simpan checkpoint desain visual BantuUsaha yang baru.
+- [x] Pulihkan layanan pengembangan setelah pratinjau berhenti merespons.
+- [x] Tambahkan tab fitur baru yang relevan untuk UMKM dan tata ulang navigasi bawah menjadi Panduan–Catat–Home–fitur baru–Layanan.
+- [x] Tambahkan transisi halus dan state aktif pada ikon navigasi bawah.
+- [x] Tambahkan badge notifikasi merah pada tab Kabar.
+- [x] Perluas halaman Kabar menjadi daftar berita terbaru dan peluang bisnis UMKM.
+- [x] Validasi interaksi animasi, lint, typecheck, dan pengujian unit setelah pembaruan Kabar.
+- [x] Tandai Kabar sebagai sudah dibaca saat halaman dibuka dan hilangkan badge merah.
+- [x] Tambahkan filter kategori Legalitas, Modal, Pelatihan, dan Semua pada Kabar.
+- [x] Tambahkan bookmark artikel tersimpan lokal serta daftar artikel tersimpan.
+- [x] Validasi typecheck, lint, dan pengujian unit untuk fitur personalisasi Kabar.
+- [x] Tambahkan pencarian kata kunci pada daftar Kabar.
+- [x] Buat halaman detail artikel yang dapat dibaca penuh di dalam aplikasi.
+- [x] Tambahkan tindakan bagikan pada artikel Kabar melalui share sheet perangkat.
+- [x] Validasi typecheck, lint, dan pengujian unit untuk pencarian, detail, dan berbagi Kabar.
+- [x] Tambahkan catatan pribadi yang tersimpan lokal pada artikel yang dibookmark.
+- [x] Tambahkan pengaturan minat pengguna untuk kategori Kabar.
+- [x] Personalisasi urutan berita Kabar berdasarkan minat tersimpan.
+- [x] Validasi typecheck, lint, dan pengujian unit untuk catatan serta preferensi Kabar.
+- [x] Audit warna dan nuansa visual referensi UMKM-KU untuk tema Light.
+- [x] Terapkan token tema Light dan Dark yang konsisten pada BantuUsaha.
+- [x] Tambahkan kontrol pemilih tema serta simpan pilihan pengguna secara lokal.
+- [x] Validasi kontras, typecheck, lint, dan pengujian unit tema.
+- [x] Tambahkan preview mini Light dan Dark pada pengaturan tema.
+- [x] Tambahkan preferensi ukuran teks kecil, sedang, dan besar yang tersimpan lokal.
+- [x] Terapkan ukuran teks pilihan pengguna pada daftar serta detail artikel Kabar.
+- [x] Validasi typecheck, lint, dan pengujian unit untuk preview tema serta aksesibilitas teks.
+- [x] Tambahkan transisi halus pada perubahan tema dan ukuran teks di pengaturan.
+- [x] Tambahkan alur pilih, simpan, lihat, ganti, dan hapus foto QRIS lokal.
+- [x] Tambahkan layar QRIS yang terhubung dari dashboard pembukuan.
+- [x] Validasi typecheck, lint, pengujian unit, dan perilaku platform untuk foto QRIS.
+- [x] Tambahkan tampilan QRIS layar penuh untuk pemindaian pelanggan.
+- [x] Tambahkan tombol bagikan foto QRIS melalui share sheet perangkat.
+- [x] Validasi typecheck, lint, dan pengujian unit QRIS layar penuh serta berbagi.
+- [x] Tambahkan pengingat otomatis untuk mencatat transaksi harian dan tenggat UMKM.
+- [x] Tambahkan halaman analitik untuk memantau pemasukan, pengeluaran, dan saldo usaha.
+- [x] Tambahkan ekspor ringkasan transaksi bulanan dari data lokal.
+- [x] Validasi typecheck, lint, pengujian unit, dan perilaku platform untuk fitur keuangan lanjutan.
+- [x] Tambahkan filter periode untuk laporan analitik bulan ini dan bulan-bulan sebelumnya.
+- [x] Tambahkan batas anggaran pengeluaran per kategori dan indikator pemakaian anggaran.
+- [x] Tambahkan pengingat tenggat pajak dan perpanjangan izin usaha.
+- [x] Validasi typecheck, lint, pengujian unit, dan perilaku platform untuk kontrol keuangan lanjutan.
+- [x] Tambahkan peringatan otomatis saat pemakaian anggaran mencapai 80%.
+- [x] Tambahkan kategori sumber pemasukan dan analitik pendapatan per kategori.
+- [x] Analisis template PDF laporan keuangan untuk menentukan aturan impor transaksi.
+- [x] Tambahkan pilih file PDF, ekstraksi transaksi, dan layar konfirmasi impor.
+- [x] Validasi typecheck, lint, pengujian unit, dan perilaku platform untuk peringatan, kategori, dan impor PDF.
+- [x] Analisis struktur template UMKM-KU untuk ekspor laporan PDF.
+- [x] Terapkan header usaha, tiga ringkasan, tabel harian, dan total periode pada ekspor PDF.
+- [x] Validasi format laporan PDF serta ekspor melalui share sheet perangkat.
+- [x] Tambahkan nama usaha dan nama pemilik yang tersimpan lokal.
+- [x] Tambahkan unggah serta pengelolaan logo usaha pada pengaturan.
+- [x] Tampilkan identitas usaha dan logo pada header laporan PDF.
+- [x] Tambahkan konfirmasi bahasa Indonesia/Inggris sebelum ekspor PDF.
+- [x] Validasi typecheck, lint, dan pengujian unit untuk identitas serta ekspor multibahasa.
+- [x] Tambahkan tombol ekspor laporan PDF yang terlihat jelas pada halaman Catat Uang.
+- [x] Validasi navigasi tombol ekspor dari Catat Uang ke laporan analitik.
+- [x] Pulihkan layanan pengembangan setelah pratinjau berhenti merespons.
+- [x] Ubah nama tampilan aplikasi menjadi UMKM-KU.
+- [x] Sederhanakan mode terang menjadi putih bersih tanpa gradien oranye atau kuning.
+- [x] Validasi identitas aplikasi dan tampilan mode terang yang diperbarui.
+- [x] Pulihkan layanan pengembangan setelah pratinjau berhenti merespons (permintaan terbaru).
+- [x] Ubah teks merek header dari bantuusaha menjadi UMKM KU.
+- [x] Validasi pembaruan teks merek pada antarmuka.
+- [x] Perbaiki alur ekspor PDF agar file dapat tersimpan atau dibagikan pada setiap platform.
+- [x] Tampilkan logo usaha yang tersimpan sebagai avatar pada header beranda.
+- [x] Samakan nama UMKM KU pada judul laporan PDF dan halaman pengaturan.
+- [x] Validasi ekspor PDF serta pembaruan identitas usaha.
+- [x] Perbaiki crash saat pengguna mengaktifkan mode gelap di Expo.
+- [x] Hilangkan area putih pada tab Panduan dan aktifkan tombol Belajar Mandiri.
+- [x] Tambahkan akses Pengaturan dan Profil Usaha pada halaman Layanan.
+- [x] Validasi tema gelap, interaksi Panduan, serta navigasi Layanan.
+- [x] Terapkan kartu dan teks responsif mode gelap pada layar legacy.
+- [x] Tambahkan indikator aktif pada pintasan Profil Usaha dan Pengaturan di Layanan.
+- [x] Buat serta jalankan uji navigasi otomatis untuk tombol utama.
+- [x] Debug dan validasi semua perubahan sebelum checkpoint.
+- [x] Tambahkan pop-up onboarding pertama kali dengan urutan prioritas fitur UMKM.
+- [x] Simpan status onboarding secara lokal dan tambahkan akses untuk mengulang tutorial.
+- [x] Uji onboarding, tombol lewati, dan navigasi langkah prioritas sebelum checkpoint.
+- [x] Tambahkan reward ringan saat Profil Usaha selesai dilengkapi.
+- [x] Tambahkan reward ringan saat transaksi pertama berhasil dicatat.
+- [x] Simpan status reward secara lokal dan validasi pemicunya.
+- [x] Tambahkan halaman progres dengan lencana usaha yang telah diperoleh.
+- [x] Tambahkan target pencatatan transaksi mingguan yang tersimpan lokal.
+- [x] Tambahkan notifikasi apresiasi sekali saat target mingguan tercapai.
+- [x] Uji progres, target, dan notifikasi sebelum checkpoint.
+- [x] Tambahkan pengaturan jumlah target transaksi mingguan yang tersimpan lokal.
+- [x] Tambahkan progress bar interaktif dan riwayat lencana pencapaian mingguan.
+- [x] Tambahkan animasi apresiasi saat lencana baru berhasil dibuka.
+- [x] Uji pengaturan target, riwayat, dan animasi sebelum checkpoint.
+- [x] Tambahkan tombol berbagi untuk setiap lencana yang telah diperoleh.
+- [x] Validasi teks pencapaian dan alur share sheet perangkat sebelum checkpoint.
+- [x] Buat kartu visual lencana yang dapat dibagikan sebagai gambar.
+- [x] Tambahkan editor teks pencapaian sebelum pengguna membagikan lencana.
+- [x] Simpan dan tampilkan riwayat lencana yang pernah dibagikan.
+- [x] Uji kartu visual, editor, dan riwayat berbagi sebelum checkpoint.
+- [x] Tambahkan pilihan warna dan tema untuk kartu lencana visual.
+- [x] Tambahkan watermark nama usaha secara otomatis pada kartu lencana.
+- [x] Tambahkan tombol simpan kartu visual ke galeri perangkat.
+- [x] Uji tema, watermark, dan penyimpanan galeri sebelum checkpoint.
+- [x] Tampilkan logo usaha yang tersimpan pada kartu lencana visual.
+- [x] Validasi fallback monogram saat pengguna belum mengunggah logo usaha.
+- [x] Tambahkan layar pratinjau kartu lencana sebelum simpan atau bagikan.
+- [x] Validasi pratinjau menampilkan tema, logo, watermark, dan teks yang dipilih.
+- [x] Audit render ulang, penyimpanan lokal, dan pemuatan modul yang berpotensi memakai CPU/RAM berlebih.
+- [x] Terapkan optimasi render dan pemuatan bersyarat tanpa mengubah alur aplikasi.
+- [x] Validasi stabilitas, typecheck, lint, dan tes setelah optimasi resource.
+- [x] Perbaiki elemen hero Catat Uang yang melampaui latar dan terlihat terpotong.
+- [x] Perbaiki teks hero Layanan agar tidak keluar dari batas kartu.
+- [x] Validasi tampilan Catat Uang dan Layanan pada ukuran layar iPhone sebelum checkpoint.
+- [x] Audit bug pada navigasi, tema, penyimpanan lokal, lencana, PDF, dan tampilan layar utama.
+- [x] Perbaiki bug yang dapat direproduksi dari hasil audit.
+- [x] Jalankan validasi akhir typecheck, lint, tes, dan pemeriksaan layanan sebelum checkpoint.
+- [x] Tambahkan animasi loading saat kartu lencana diproses untuk disimpan ke galeri.
+- [x] Tambahkan umpan balik berhasil atau kendala izin penyimpanan kartu.
+- [x] Validasi alur simpan kartu lencana sebelum checkpoint.
+- [x] Tambahkan animasi confetti setelah kartu lencana berhasil tersimpan.
+- [x] Tampilkan informasi album UMKM KU pada notifikasi penyimpanan berhasil.
+- [x] Validasi confetti dan notifikasi album sebelum checkpoint.
+- [x] Tambahkan pengaturan untuk menonaktifkan animasi confetti secara lokal.
+- [x] Hitung dan tampilkan jumlah kartu lencana di album UMKM KU setelah penyimpanan berhasil.
+- [x] Validasi preferensi confetti dan jumlah kartu album sebelum checkpoint.
+- [x] Tambahkan pilihan berbagi kartu lencana ke Instagram dan media sosial lain.
+- [x] Pastikan gambar kartu dan riwayat berbagi tetap berfungsi melalui share sheet perangkat.
+- [x] Validasi alur berbagi lintas platform sebelum checkpoint.
+- [x] Tambahkan pemilih format kartu standar dan Instagram Story 9:16.
+- [x] Sesuaikan komposisi logo, teks, dan watermark untuk kartu Story.
+- [x] Validasi pratinjau serta ekspor format Story sebelum checkpoint.
+- [x] Simpan dan pulihkan preferensi format kartu terakhir secara lokal.
+- [x] Audit menyeluruh bug UX pada kartu lencana, pengaturan, tema, navigasi, dan penyimpanan.
+- [x] Perbaiki temuan yang dapat direproduksi serta jalankan validasi akhir sebelum checkpoint.
+- [x] Audit menyeluruh UI layar utama, Catat Uang, Layanan, Progres, Pengaturan, dan kartu lencana.
+- [x] Audit bug alur navigasi, tema, PDF, penyimpanan lokal, galeri, serta share sheet.
+- [x] Perbaiki temuan yang dapat direproduksi dan validasi ulang sebelum checkpoint.
+- [x] Tambahkan tes kontrak visual untuk token Light/Dark dan layar UI kritis.
+- [x] Verifikasi elemen tema pada Catat Uang, Layanan, Pengaturan, dan kartu lencana.
+- [x] Jalankan tes visual bersama typecheck, lint, dan tes unit sebelum checkpoint.
+- [x] Audit bug kritis, rute mati, fitur tidak terhubung, dan dependensi atau kode tidak terpakai.
+- [x] Perbaiki temuan yang dapat direproduksi serta hapus kode mati yang aman.
+- [x] Validasi typecheck, lint, tes, rute, dan layanan sebelum checkpoint.
+- [x] Tingkatkan kontras teks sekunder mode Dark menjadi putih atau putih kebiruan.
+- [x] Audit gaya teks Dark pada layar utama dan kartu agar tidak menyatu dengan latar.
+- [x] Validasi tema Dark berkontras tinggi sebelum checkpoint.
+- [x] Ganti seluruh teks abu non-semantik pada mode Dark menjadi putih penuh.
+- [x] Audit layar Beranda, Kabar, Pengaturan, Panduan, Catat, Layanan, dan Progres pada mode Dark.
+- [x] Tambahkan regresi tes untuk melarang token abu pada teks mode Dark.
+- [x] Validasi typecheck, lint, dan tes sebelum checkpoint kontras menyeluruh.
+- [x] Audit seluruh modal, popup, dan overlay pada mode Dark.
+- [x] Terapkan teks putih penuh pada konten modal yang berlatar gelap.
+- [x] Tambahkan pengaman tes visual untuk modal Dark dan validasi sebelum checkpoint.
+- [x] Pulihkan akses pratinjau web yang tidak dapat dibuka pengguna.
+- [x] Verifikasi layanan pratinjau kembali tersedia sebelum menyampaikan hasil.
+- [x] Tambahkan ikon mata untuk menyembunyikan atau menampilkan nominal keuangan.
+- [x] Simpan preferensi privasi nominal secara lokal di perangkat.
+- [x] Validasi tampilan nominal dan aksesibilitas kontrol sebelum checkpoint.
+- [x] Pulihkan endpoint bundel agar dapat dijangkau oleh Expo Go.
+- [x] Verifikasi koneksi bundel iOS dan berikan langkah muat ulang yang tepat.
+- [x] Perbaiki crash Expo Go pada pemuatan modul galeri kartu lencana.
+- [x] Validasi halaman Progres dan alur kartu lencana setelah perbaikan.
+- [x] Buat skill reusable untuk penyempurnaan UI dan debugging Expo Go.
+- [x] Validasi serta kirim skill yang dapat dipasang ulang.
+- [x] Audit warning runtime Expo Go dan risiko modul native pada seluruh layar.
+- [x] Audit navigasi, tampilan, dan dead feature pada layar utama serta layar utilitas.
+- [x] Perbaiki temuan Expo Go yang dapat direproduksi dan tambahkan regresi tes.
+- [x] Validasi audit akhir sebelum checkpoint.
+- [ ] Pulihkan domain pratinjau publik yang menampilkan halaman maintenance.
+- [ ] Verifikasi URL pratinjau yang dapat diakses dari perangkat pengguna.
+- [x] Buat arsip kode sumber UMKM KU terbaru untuk diunduh.
+- [x] Verifikasi isi arsip sebelum mengirimkannya kepada pengguna.
+- [x] Bandingkan isi dan ukuran arsip kode terbaru dengan arsip sebelumnya.
+- [x] Pastikan arsip terbaru memuat seluruh source code yang tersedia di proyek.
+- [x] Pulihkan aset ikon launcher, splash, dan favicon yang direferensikan konfigurasi tetapi belum tersedia di proyek.
+- [x] Pastikan aset launcher, splash, favicon, dan ikon adaptif tersedia pada lokasi konfigurasi Expo.
+- [x] Buat serta verifikasi ZIP kode terbaru yang mencakup aset branding dan seluruh perbaikan UI.
+- [x] Periksa akses dan kondisi repositori GitHub tujuan.
+- [x] Siapkan seluruh source code, konfigurasi, tes, dan aset UMKM KU untuk unggahan.
+- [x] Konfirmasi unggahan telah diberikan pengguna melalui permintaan eksplisit.
+- [ ] Verifikasi commit berhasil tersedia di repositori GitHub.
