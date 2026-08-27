@@ -1,7 +1,7 @@
 # Project TODO
 
-- [ ] Sinkronkan file perbaikan Dark mode terbaru ke repositori Suryadharmaa/app-umkm-ku.
-- [ ] Verifikasi commit pembaruan tersedia pada branch utama GitHub.
+- [x] Sinkronkan file perbaikan Dark mode terbaru ke repositori Suryadharmaa/app-umkm-ku.
+- [x] Verifikasi commit pembaruan tersedia pada branch utama GitHub.
 - [x] Ekstrak dan analisis objective, metode, temuan, serta batasan dari makalah.
 - [x] Tulis rancangan UI/UX mobile berorientasi portrait berdasarkan kebutuhan makalah.
 - [x] Definisikan model data lokal dan alur pengguna inti.
