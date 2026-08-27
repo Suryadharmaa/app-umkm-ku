@@ -203,4 +203,4 @@
 - [x] Periksa akses dan kondisi repositori GitHub tujuan.
 - [x] Siapkan seluruh source code, konfigurasi, tes, dan aset UMKM KU untuk unggahan.
 - [x] Konfirmasi unggahan telah diberikan pengguna melalui permintaan eksplisit.
-- [ ] Verifikasi commit berhasil tersedia di repositori GitHub.
+- [x] Verifikasi commit berhasil tersedia di repositori GitHub.
