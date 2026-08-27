@@ -1,5 +1,7 @@
 # Project TODO
 
+- [ ] Sinkronkan file perbaikan Dark mode terbaru ke repositori Suryadharmaa/app-umkm-ku.
+- [ ] Verifikasi commit pembaruan tersedia pada branch utama GitHub.
 - [x] Ekstrak dan analisis objective, metode, temuan, serta batasan dari makalah.
 - [x] Tulis rancangan UI/UX mobile berorientasi portrait berdasarkan kebutuhan makalah.
 - [x] Definisikan model data lokal dan alur pengguna inti.
@@ -204,3 +206,9 @@
 - [x] Siapkan seluruh source code, konfigurasi, tes, dan aset UMKM KU untuk unggahan.
 - [x] Konfirmasi unggahan telah diberikan pengguna melalui permintaan eksplisit.
 - [x] Verifikasi commit berhasil tersedia di repositori GitHub.
+- [x] Audit semua layar detail dan utilitas untuk teks abu pada mode Dark.
+- [x] Ganti teks abu non-semantik pada artikel, formulir, panduan, dan lencana Dark menjadi putih.
+- [x] Tambahkan pengaman regresi kontras Dark untuk layar detail serta validasi sebelum checkpoint.
+- [x] Audit semua layar detail dan utilitas untuk teks abu pada mode Dark.
+- [x] Ganti teks abu non-semantik pada artikel, formulir, panduan, dan lencana Dark menjadi putih.
+- [x] Tambahkan pengaman regresi kontras Dark untuk layar detail serta validasi sebelum checkpoint.

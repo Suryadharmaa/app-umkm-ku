@@ -35,6 +35,17 @@ describe("kontrak visual Light dan Dark UMKM KU", () => {
       "app/progress.tsx",
       "app/(tabs)/index.tsx",
       "app/(tabs)/news.tsx",
+      "app/article/[id].tsx",
+      "app/business-profile.tsx",
+      "app/lesson/[id].tsx",
+      "app/guide/[id].tsx",
+      "app/readiness.tsx",
+      "app/readiness-result.tsx",
+      "app/add-transaction.tsx",
+      "app/budget.tsx",
+      "app/import-pdf.tsx",
+      "app/analytics.tsx",
+      "app/service/[id].tsx",
     ];
 
     for (const screen of screens) {
@@ -48,6 +59,18 @@ describe("kontrak visual Light dan Dark UMKM KU", () => {
     expect(source("app/(tabs)/news.tsx")).toContain('textDark: { color: "#FFFFFF" }');
     expect(source("app/reminders.tsx")).toContain("useThemeContext");
     expect(source("app/reminders.tsx")).toContain('textDark: { color: "#FFFFFF" }');
+    expect(source("app/article/[id].tsx")).toContain('dark && styles.textDark');
+    expect(source("app/business-profile.tsx")).toContain('dark && styles.textDark');
+    expect(source("app/lesson/[id].tsx")).toContain('dark && styles.textDark');
+    expect(source("app/guide/[id].tsx")).toContain('dark && styles.textDark');
+    expect(source("app/readiness.tsx")).toContain('dark && styles.textDark');
+    expect(source("app/readiness-result.tsx")).toContain('dark && styles.textDark');
+    expect(source("app/progress.tsx")).not.toContain('locked: { opacity: .65 }');
+    expect(source("app/add-transaction.tsx")).toContain('dark && styles.textDark');
+    expect(source("app/budget.tsx")).toContain('dark && styles.textDark');
+    expect(source("app/import-pdf.tsx")).toContain('dark && styles.textDark');
+    expect(source("app/analytics.tsx")).toContain('dark && styles.textDark');
+    expect(source("app/service/[id].tsx")).toContain('dark && styles.textDark');
   });
 
   it("menjaga kartu lencana aman untuk Light/Dark dan lintas platform", () => {
