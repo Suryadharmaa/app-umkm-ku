@@ -222,3 +222,12 @@
 - [x] Audit semua layar detail dan utilitas untuk teks abu pada mode Dark.
 - [x] Ganti teks abu non-semantik pada artikel, formulir, panduan, dan lencana Dark menjadi putih.
 - [x] Tambahkan pengaman regresi kontras Dark untuk layar detail serta validasi sebelum checkpoint.
+
+- [ ] Hapus kilatan atau transisi putih saat berpindah tab pada Light dan Dark mode.
+- [ ] Validasi navigasi tab, simpan checkpoint, dan commit perbaikan ke Suryadharmaa/app-umkm-ku.
+
+- [x] Hapus animasi atau kilatan putih saat perpindahan antar tab secara lokal.
+- [x] Tambahkan regresi test dan validasi lokal untuk navigasi tab Light/Dark.
+
+- [ ] Commit dan push perbaikan transisi tab ke Suryadharmaa/app-umkm-ku.
+- [ ] Verifikasi hash commit dan status branch main setelah push.

@@ -13,7 +13,7 @@ export default function TabLayout() {
   const insets = useSafeAreaInsets();
   const bottomPadding = Platform.OS === "web" ? 9 : Math.max(insets.bottom, 8);
   const tabBarHeight = 60 + bottomPadding;
-  return <Tabs screenOptions={{ animation: "fade", tabBarActiveTintColor: colors.tint, tabBarInactiveTintColor: colors.muted, headerShown: false, tabBarButton: HapticTab, tabBarLabelStyle: styles.label, tabBarItemStyle: styles.item, tabBarStyle: { paddingTop: 6, paddingBottom: bottomPadding, height: tabBarHeight, backgroundColor: colors.background, borderTopColor: colors.border, borderTopWidth: 1 }, sceneStyle: { backgroundColor: colors.background } }}>
+  return <Tabs screenOptions={{ animation: "none", tabBarActiveTintColor: colors.tint, tabBarInactiveTintColor: colors.muted, headerShown: false, tabBarButton: HapticTab, tabBarLabelStyle: styles.label, tabBarItemStyle: styles.item, tabBarStyle: { paddingTop: 6, paddingBottom: bottomPadding, height: tabBarHeight, backgroundColor: colors.background, borderTopColor: colors.border, borderTopWidth: 1 }, sceneStyle: { backgroundColor: colors.background } }}>
     <Tabs.Screen name="guide" options={{ title: "Panduan", tabBarIcon: ({ color }) => <TabIcon name="guide" color={String(color)} /> }} />
     <Tabs.Screen name="money" options={{ title: "Catat", tabBarIcon: ({ color }) => <TabIcon name="money" color={String(color)} /> }} />
     <Tabs.Screen name="index" options={{ title: "Home", tabBarIcon: ({ focused }) => <HomeIcon focused={focused} /> }} />
