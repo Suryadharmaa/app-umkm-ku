@@ -229,5 +229,5 @@
 - [x] Hapus animasi atau kilatan putih saat perpindahan antar tab secara lokal.
 - [x] Tambahkan regresi test dan validasi lokal untuk navigasi tab Light/Dark.
 
-- [ ] Commit dan push perbaikan transisi tab ke Suryadharmaa/app-umkm-ku.
-- [ ] Verifikasi hash commit dan status branch main setelah push.
+- [x] Commit dan push perbaikan transisi tab ke Suryadharmaa/app-umkm-ku.
+- [x] Verifikasi hash commit dan status branch main setelah push.
