@@ -1,5 +1,15 @@
 # Project TODO
 
+- [x] Rancang model data dan kontrak lokal untuk pembaruan UMKM KU v1.0.1.
+- [x] Tambahkan backup serta pemulihan data lokal dengan pemeriksaan isi backup.
+- [x] Tambahkan edit, duplikat, hapus terkonfirmasi, dan batalkan tindakan transaksi.
+- [x] Tambahkan ringkasan kontrol arus kas tujuh hari dan peringatan yang relevan.
+- [x] Tambahkan asisten tutup buku bulanan yang terhubung dengan laporan PDF.
+- [x] Tambahkan mode pencatatan transaksi cepat dari alur Catat Uang.
+- [x] Perluas pengujian regresi untuk backup, arus kas, tutup buku, dan navigasi versi 1.0.1.
+- [x] Lakukan audit source menyeluruh dan perbaiki temuan yang dapat direproduksi.
+- [ ] Simpan checkpoint dan sinkronkan implementasi v1.0.1 ke GitHub.
+- [x] Susun rekomendasi pembaruan UMKM KU versi 1.0.1 yang signifikan dan berprioritas.
 - [x] Sinkronkan file perbaikan Dark mode terbaru ke repositori Suryadharmaa/app-umkm-ku.
 - [x] Verifikasi commit pembaruan tersedia pada branch utama GitHub.
 - [x] Ekstrak dan analisis objective, metode, temuan, serta batasan dari makalah.

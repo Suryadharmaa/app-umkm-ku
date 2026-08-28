@@ -69,7 +69,9 @@ describe("kontrak visual Light dan Dark UMKM KU", () => {
     expect(source("app/add-transaction.tsx")).toContain('dark && styles.textDark');
     expect(source("app/budget.tsx")).toContain('dark && styles.textDark');
     expect(source("app/import-pdf.tsx")).toContain('dark && styles.textDark');
-    expect(source("app/analytics.tsx")).toContain('dark && styles.textDark');
+    expect(source("app/analytics.tsx")).toContain('dark && s.textDark');
+    expect(source("app/backup.tsx")).toContain('textDark: { color: "#FFFFFF" }');
+    expect(source("app/monthly-close.tsx")).toContain('textDark: { color: "#FFFFFF" }');
     expect(source("app/service/[id].tsx")).toContain('dark && styles.textDark');
   });
 
@@ -98,7 +100,7 @@ describe("kontrak visual Light dan Dark UMKM KU", () => {
     const packageJson = source("package.json");
     expect(packageJson).toMatch(/"expo-media-library": "[~^]18\.2\.1"/);
     expect(packageJson).toContain('"expo-asset": "~12.0.13"');
-    expect(packageJson).toContain('"exclude": ["@react-navigation/bottom-tabs", "@react-navigation/native"]');
+    expect(packageJson).toMatch(/"exclude":\s*\[\s*"@react-navigation\/bottom-tabs",\s*"@react-navigation\/native"\s*\]/s);
     expect(source("components/badge-share-sheet.tsx")).toContain('require("expo-media-library")');
     expect(source("app.config.ts")).toContain('"expo-asset"');
   });

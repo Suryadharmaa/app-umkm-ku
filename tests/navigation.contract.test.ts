@@ -42,8 +42,11 @@ describe("navigasi utama UMKM KU", () => {
     const routes: Array<[string, string]> = [
       ["/add-transaction", "app/add-transaction.tsx"],
       ["/analytics", "app/analytics.tsx"],
+      ["/backup", "app/backup.tsx"],
       ["/budget", "app/budget.tsx"],
+      ["/edit-transaction", "app/edit-transaction.tsx"],
       ["/import-pdf", "app/import-pdf.tsx"],
+      ["/monthly-close", "app/monthly-close.tsx"],
       ["/progress", "app/progress.tsx"],
       ["/qris", "app/qris.tsx"],
       ["/readiness", "app/readiness.tsx"],
@@ -55,5 +58,17 @@ describe("navigasi utama UMKM KU", () => {
       expect(source(file)).toBeTruthy();
       expect(route.startsWith("/")).toBe(true);
     }
+  });
+
+  it("menjaga alur v1.0.1 dapat diakses dari layar keuangan dan Pengaturan", () => {
+    const money = source("app/(tabs)/money.tsx");
+    const analytics = source("app/analytics.tsx");
+    const preferences = source("app/preferences.tsx");
+    expect(money).toContain("Catat cepat");
+    expect(money).toContain("/edit-transaction");
+    expect(money).toContain("Batalkan");
+    expect(analytics).toContain("getSevenDayCashflow");
+    expect(analytics).toContain("/monthly-close");
+    expect(preferences).toContain("Cadangan & Pemulihan");
   });
 });
